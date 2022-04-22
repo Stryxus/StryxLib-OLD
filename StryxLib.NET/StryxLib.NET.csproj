@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	  <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyyMMddHHmmss"))</SourceRevisionId>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <Folder Include="Machine\Hardware\CPU\Sensors\" />
+    <Folder Include="Machine\Hardware\GPU\Sensors\" />
+    <Folder Include="Machine\Hardware\Motherboard\Bluetooth\" />
+    <Folder Include="Machine\Hardware\Motherboard\Ethernet\Wifi\" />
+    <Folder Include="Machine\Hardware\Motherboard\Audio\" />
+    <Folder Include="Machine\Hardware\Motherboard\Sensors\" />
+    <Folder Include="Machine\Hardware\Battery\" />
+    <Folder Include="Machine\Hardware\RAM\Sensors\" />
+    <Folder Include="Machine\Hardware\Storage\Sensors\" />
+    <Folder Include="Machine\System\Catalyst\iOS\" />
+    <Folder Include="Machine\System\Catalyst\iPadOS\" />
+    <Folder Include="Machine\System\Catalyst\MacOS\" />
+    <Folder Include="Machine\System\Linux\Android\" />
+    <Folder Include="Machine\System\NT\Windows\" />
+    <Folder Include="Math\" />
+    <Folder Include="Network\" />
+    <Folder Include="Compression\" />
+    <Folder Include="Cryptography\" />
+    <Folder Include="Azure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+    <PackageReference Include="xunit" Version="2.4.2-pre.12" />
+  </ItemGroup>
+
+</Project>
