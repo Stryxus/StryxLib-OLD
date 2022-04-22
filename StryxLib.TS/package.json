@@ -1,0 +1,17 @@
+{
+  "name": "stryx-lib.ts",
+  "version": "0.0.0",
+  "description": "StryxLib.TS",
+  "main": "app.js",
+  "author": {
+    "name": "Stryxus"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "typescript": "^4.0.5"
+  }
+}

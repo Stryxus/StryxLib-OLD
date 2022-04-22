@@ -1,0 +1,9 @@
+{
+  "name": "stryx-lib.js",
+  "version": "0.0.0",
+  "description": "StryxLib.JS",
+  "main": "app.js",
+  "author": {
+    "name": "Stryxus"
+  }
+}
