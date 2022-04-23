@@ -16,7 +16,7 @@
 #include <signal.h>      // (C90) Signal handling
 #include <stdalign.h>    // (C11) alignas and alignof convenience macros
 #include <stdarg.h>      // (C90) Variable arguments
-//#include <stdatomic.h>   // (C11) Atomic operations
+// CURRENTLY BROKEN IN NT | #include <stdatomic.h>   // (C11) Atomic operations
 #include <stdbool.h>     // (C99) Macros for boolean type
 #include <stddef.h>      // (C90) Common macro definitions
 #include <stdint.h>      // (C99) Fixed - width integer types
@@ -24,8 +24,8 @@
 #include <stdlib.h>      // (C90) General utilities : memory management, program utilities, string conversions, random numbers, algorithms
 #include <stdnoreturn.h> // (C11) noreturn convenience macro
 #include <string.h>      // (C90) String handling
-#include <tgmath.h>      // (C99) Type - generic math(macros wrapping math.h and complex.h)
-//#include <threads.h>     // (C11) Thread library
+// CURRENTLY BROKEN IN CLANG | #include <tgmath.h>      // (C99) Type - generic math(macros wrapping math.h and complex.h)
+// NOT SUPPORTED IN NT | #include <threads.h>     // (C11) Thread library
 #include <time.h>        // (C90) Time / date utilities
 #include <uchar.h>       // (C11) UTF - 16 and UTF - 32 character utilities
 #include <wchar.h>       // (C95) Extended multibyte and wide character utilities
