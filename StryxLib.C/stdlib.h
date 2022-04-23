@@ -25,7 +25,9 @@
 #include <stdnoreturn.h> // (C11) noreturn convenience macro
 #include <string.h>      // (C90) String handling
 #include <tgmath.h>      // (C99) Type - generic math(macros wrapping math.h and complex.h)
+#ifndef __STDC_NO_THREADS__
 #include <threads.h>     // (C11) Thread library
+#endif
 #include <time.h>        // (C90) Time / date utilities
 #include <uchar.h>       // (C11) UTF - 16 and UTF - 32 character utilities
 #include <wchar.h>       // (C95) Extended multibyte and wide character utilities
