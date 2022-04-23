@@ -59,6 +59,7 @@
       <EnableEnhancedInstructionSet />
       <PrecompiledHeaderFile />
       <PrecompiledHeaderOutputFile />
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
