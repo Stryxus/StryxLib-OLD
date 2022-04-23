@@ -50,9 +50,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard>
+      </LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <CompileAs>CompileAsC</CompileAs>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ExceptionHandling>false</ExceptionHandling>
+      <EnableEnhancedInstructionSet />
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

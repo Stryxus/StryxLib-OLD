@@ -67,6 +67,7 @@
     <ClCompile>
       <CompileAs>CompileAsC</CompileAs>
       <CppAdditionalWarning />
+      <CLanguageStandard>c11</CLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
