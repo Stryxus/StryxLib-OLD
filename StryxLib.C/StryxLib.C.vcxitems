@@ -14,9 +14,15 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mem.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)stdlib.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)time.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)io.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)mem.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)stdlib.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)time.c" />
   </ItemGroup>
 </Project>
