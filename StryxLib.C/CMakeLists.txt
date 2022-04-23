@@ -2,6 +2,7 @@
 # project specific logic here.
 #
 cmake_minimum_required (VERSION 3.12)
+set(CMAKE_C_CLANG_TIDY clang-tidy -checks=-*,readability-*)
 
 # Add source to this project's executable.
 add_library (StryxLib.C SHARED "Sources/stdlib.c" "Headers/stdlib.h")
